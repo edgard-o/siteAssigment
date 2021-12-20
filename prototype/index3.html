@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+
+    <title>BCIT · COMP1950 · LECTURE 01</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+
+    <!-- Reset CSS -->
+    <link rel="reset" href="css/reset.css" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog-post.min.css" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16">
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap"
+      rel="stylesheet">
+
+    <!-- JS -->
+    <script src="script/script.js"></script>
+
+    <!-- SEO -->
+    <meta	name="description" content="Lecture 01: Tools and Standards · Introductions · Orientation · Web development tools · Standards based development · To Do" />
+    <meta name="author" content="Edgard Ohnishi">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="banner navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a id='top' href="www.bcit.ca"><img src="image/logo.jpg" alt="logo"></a>
+        <div class="parag">
+          <p class='p1'>COMP1950</p>
+          <p class='p1'>Web Development And Design 2</p>
+          <p>Lecture 01: Tools and Standards</p>
+        </div>
+      </div>
+    </nav>
+    <nav id='navfix' class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn nav-link dropdown-toggle" type="button"
+                id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Lectures</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">01 · Tools and Standards</a>
+                <a class="dropdown-item" href="#">02 · HTML5</a>
+                <a class="dropdown-item" href="#">03 · Advanced CSS</a>
+                <a class="dropdown-item" href="#">04 · CSS Layout</a>
+                <a class="dropdown-item" href="#">05 · Responsive Design </a>
+                <a class="dropdown-item" href="#">06 · JavaScript Frameworks</a>
+                <a class="dropdown-item" href="#">07 · Server Architecture</a>
+                <a class="dropdown-item" href="#">08 · Templates, Tools</a>
+                <a class="dropdown-item" href="#">09 · Methodology</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn nav-link dropdown-toggle" type="button"
+                 data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">About</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Course Information</a>
+                <a class="dropdown-item" href="#">Contact</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Forum</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn nav-link dropdown-toggle" type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Downloads</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Exercises</a>
+                <a class="dropdown-item" href="#">Class Content</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <!-- Page Content -->
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Post Content Column -->
+          <div class="col-lg-8">
+
+            <!-- Title -->
+            <h1 class="mt-4">COMP1950 Thursday Evening Class</h1>
+
+            <!-- Author -->
+            <p class="lead">
+              by
+              <a href="https://www.bcit.ca/cas/" target="blank">SCHOOL OF
+                COMPUTING AND ACADEMIC STUDIES</a>
+            </p>
+
+            <hr>
+
+            <!-- Date/Time -->
+            <!-- <hr> -->
+
+            <!-- Preview Image -->
+            <!-- <img class="img-fluid rounded" src="http://placehold.it/900x300" alt=""> -->
+            <!-- <hr> -->
+
+            <!-- Post Content -->
+            <div class="paragraphs">
+              <h2 class='title' id="intro">Agenda</h2>
+              <div class="contblock">
+                <ul>
+                  <li><a href="#intro">Introductions</a></li>
+                  <li><a href="#orientation">Orientation</a></li>
+                  <li><a href="#tools">Web development tools</a></li>
+                </ul>
+              </div>
+
+              <hr>
+              <div class='title'>
+                <h2 style="flex-grow: 8">Introductions</h2>
+                <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+              </div>
+
+              <div class="contblock">
+                <ul>
+                  <li> <b>Instructors:</b> Jeff Parker (<a
+                      href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>),
+                    Michael Whyte (<a
+                      href="mailto:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>)</li>
+                  <li> <b>Web site:</b> this is it </li>
+                  <li> <b>All about you...</b>
+                    <ul>
+                      <li>What is your name?</li>
+                      <li>Tell us about your background?</li>
+                      <li>What do you hope to achieve in this course? Be
+                        specific!</li>
+                    </ul></li>
+                </ul>
+              </div>
+
+              <hr>
+
+              <h2 id="orientation">Course Overview</h2>
+              <div class="contblock">
+                <p>Learn more <a href="/1950/about/">about the course</a> to
+                  help you determine if this is the right class for you.</p>
+                <p>Review the <a href="/1950/resources/">COMP1950 resources</a>
+                  available to help you with this course.</p>
+              </div>
+
+              <hr>
+              <div class='title'>
+                <h2 style="flex-grow: 8">Orientation: Sharefile</h2>
+                <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+              </div>
+
+              <div class="contblock">
+                <p>BCIT lab computers are re-imaged each day. Files you save on
+                  the local C: drive of a lab computer will be erased after the
+                  computer power is cycled.</p>
+                <h4>Options For Saving Files:</h4>
+                <ul>
+                  <li>Use <a href="http://kb.BCIT.ca/sr/sharefile/2052.shtml">BCIT
+                      Sharefile</a> to save your work</li>
+                  <li>Save your work to your personal USB or cloud storage
+                    account</li>
+                  <li>Use your own laptop in class, and dont use the BCIT lab
+                    computers</li>
+                </ul>
+              </div>
+
+              <hr>
+
+              <h2>Orientation: Course Materials</h2>
+              <div class="contblock">
+                <p>COMP 1950 homework assignments, quizzes, in class exercises
+                  and example code can be accessed via <a
+                    href="https://learn.bcit.ca">Desire 2 Learn</a> (D2L). Use
+                  your BCIT student number and password to access D2L. Course
+                  materials will become avilable as the course progresses. It is
+                  your responsibility to log in and download files as they
+                  become available.</p>
+                <p>If you have difficulty gaining access, consult the <a
+                    href="https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml">D2L
+                    help documentation</a>, or contact BCIT Tech help desk at
+                  <code>604-412-7444</code> (Toll free: <code>1-800-351-5533</code>).</p>
+              </div>
+
+              <hr>
+
+              <h2 id="student_webspace">Orientation: Web space</h2>
+              <div class="contblock">
+                <p>Each student will get a personal webspace where you will
+                  publish your homework assignments. This is not a continuation
+                  of your COMP1850 site (if you had one). This site is primarily
+                  for you to house your exercises, assignments and group work.
+                  Make it a site that is usable and functional.</p>
+                <ul>
+                  <li>Your instructor will create webspaces for each of you.</li>
+                  <li>Email your instructor this information:
+                    <ul>
+                      <li>your myBCIT email - eg: yourname123@my.BCIT.ca</li>
+                      <li>your student number - eg: A00123456</li>
+                      <li>a case sensitive password you will remember - ???</li>
+                    </ul>
+                  </li>
+                  <li>Take the name portion of your <code>my.bcit.ca</code>
+                    email address and use it at the end of the URL described
+                    below (eg: if your email address is '<em>yourname123@my.bcit.ca</em>',
+                    your email name is '<em>yourname123</em>', so your url would
+                    be '<em>http://bcitcomp.ca/students/yourname123</em>'<br />For
+                    example: <code>http://bcitcomp.ca/students/your_bcit_email_name</code></li>
+                </ul>
+              </div>
+
+              <hr>
+
+              <h2>Connect to your bcitcomp.ca account via FTP</h2>
+              <div class="contblock">
+                <p>Use Filezilla, or any FTP client to connect to bcitcomp.ca.
+                  The bcitcomp.ca server provides you with a space on the
+                  internet where you can publish your homework and assignments.</p>
+                <ol>
+                  <li>Choose: <strong>File->SiteManager->New Site</strong>, then
+                    describe the FTP server, eg "bcitcomp.ca"</li>
+                  <li>Host: <strong>bcitcomp.ca</strong> </li>
+                  <li>Port: <strong>21</strong></li>
+                  <li>User: <strong>{yourBCITStudentNumber}@bcitcomp.ca</strong>
+                    (use an uppercase <strong>A</strong> when typing your BCIT
+                    student number)</li>
+                  <li id="tools">Password: <strong>???</strong> </li>
+                  <li>Servertype: <strong>FTP</strong> File Transfer Protocol
+                  </li>
+                  <li>LogonType: <strong>Normal</strong> </li>
+                  <li>Click: <strong>Connect</strong></li>
+                  <li>If you experience connectivity problems, re-check your
+                    input, or ask your instructor for assistance.</li>
+                </ol>
+              </div>
+              <hr>
+              <div class='title'>
+                <h2 style="flex-grow: 8">Tools: Visual Studio Code</h2>
+                <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+              </div>
+
+              <div class="contblock">
+                <p>There are several development tools to choose from. In COMP
+                  1950 we will use the open source Integrated Devlopment
+                  Environment (IDE) from Microsoft called <a
+                    href="https://code.visualstudio.com/">Visual Studio Code</a>
+                  (VS Code). This is more than a simple text editor, it provides
+                  robust code editing, maintenance and testing features, as well
+                  as supporting plugins to further increase it's capabilities.</p>
+                <h3>Lab Computers</h3>
+                <p>VS Code should already be installed on COMP1950 lab
+                  computers. The executable is found at <code>C:/Program
+                    Files/Microsoft VS Code/Code.exe</code></p>
+
+                <h3>Laptop / Home Desktop</h3>
+                <p><a href="https://code.visualstudio.com/#alt-downloads">Download
+                    VS Code</a> for Windows, Mac or Linux.</p>
+              </div>
+            </div>
+            <!-- 
+            page content ends
+            *************************************
+            -->
+          </div>
+
+          <hr>
+
+        
+
+          <!-- Sidebar Widgets Column -->
+          <div class="col-md-4">
+
+            <!-- Search Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Categories</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="https://www.bcit.ca/" target="blank"><i
+                            class="fas fa-home"></i> BCIT</a>
+                      </li>
+                      <li>
+                        <a href="https://my.bcit.ca/cp/home/displaylogin"
+                          target="blank"><i class="far fa-address-card"></i>
+                          myBCIT</a>
+                      </li>
+                      <li>
+                        <a href="https://learn.bcit.ca/d2l/home" target="blank"><i
+                            class="fab fa-readme"></i> D2L</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#"><i class="fas fa-pencil-alt"></i> Register</a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="far fa-user-circle"></i> Login</a>
+                      </li>
+                      <li> <a href="https://validator.w3.org/" target="blank"><i
+                            class="far fa-file-code"></i> Validator HTML</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Vancouver Weather</h5>
+              <div class="card-body">
+                <a class="weatherwidget-io"
+                  href="https://forecast7.com/en/49d28n123d12/vancouver/"
+                  data-label_1="VANCOUVER" data-label_2="WEATHER"
+                  data-icons="Climacons Animated" data-mode="Current"
+                  data-days="3" data-theme="original" data-basecolor="#fffdfd"
+                  data-textcolor="#1f1a1a" data-mooncolor="#190404">VANCOUVER
+                  WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+              </div>
+            </div>
+          
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="foo container text-white">
+        <p style="flex-grow: 9" class="m-0 text-center">Copyright © 2019. All
+          rights reserved</p>
+        <div class='icons' style="font-size: 3rem;">
+          <a href="https://www.instagram.com" target="_blank"><span class="fab
+              fa-instagram"></span></a>
+          <a href="https://www.twitter.com" target="_blank"><span class="fab
+              fa-twitter"></span></a>
+          <a href="https://www.facebook.com" target="_blank"><span class="fab
+              fa-facebook"></span></a>
+          <a href="https://www.linkedin.com" target="_blank"><span class="fab
+              fa-linkedin"></span></a>
+        </div>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

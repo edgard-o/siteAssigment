@@ -1,0 +1,35 @@
+body {
+    background-image: url(/students/eohnishi/prototype/image/homer_1.jpg);
+    background-repeat: no-repeat;
+    height: cover;
+    margin: auto;
+    background-position: center top;;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;;
+    font-size: 4.5em;
+    padding-top: 10%;
+    text-shadow: 2px 2px rgb(240, 23, 23);
+}
+
+.content{
+    margin: auto; 
+}
+
+img {
+    border-radius:90%;
+    width: 15%;
+    border: solid 2px #ff2626;
+    margin: auto;
+    display: block;
+}
+p { 
+    text-align: center;
+    font-size: 2em;
+    color: #FFF;
+    text-shadow: 2px 2px rgb(240, 23, 23);
+}
+
+.pointer {cursor: pointer;}

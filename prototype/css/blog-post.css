@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+.banner {
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.banner .container {
+  justify-content: flex-start;
+}
+
+.nav-link {
+  font-family: 'Noto Serif', serif;
+  /* font-size: 1.3em; */
+}
+
+.parag {
+  display: inline;
+  padding-left: 20px;
+}
+
+.parag p {
+  margin: 3px;
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+  color: #FFF;
+}
+
+.p1 {
+  font-size: 1em !important;
+}
+
+.paragraphs {
+  text-align: justify;
+}
+
+.dropdown-item {
+  color: #003366;
+}
+
+.fa-arrow-circle-up {
+  color: #003366;
+  font-size: 2em;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  border: solid 2px #003366;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 10px 0;
+}
+
+.foo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  padding: 20px;
+}
